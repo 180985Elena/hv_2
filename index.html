@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> аквапарк </title>
+</head>
+<body>
+    <header style="background-color:lightskyblue;">
+        <h1> Suntago  </h1>
+        <nav>
+            <menu>
+                <li><a href="#">басейн</a></li>
+                <li><a href="#">сауна</a></li>
+                <li><a href="#">горки</a></li>
+            </menu>
+        </nav>
+    </header>
+<main class="main">
+    <img src="img/аква.jpg">
+    <section>
+        <strong>
+                            Suntago – крупнейший крытый аквапарк в Европе
+        </strong>
+        <article>
+            <p>
+            Suntago – водная часть – занимает поверхность площадью 75 тысяч кв.м. Внутри одновременно может находиться десять тысяч человек. Вокруг находятся несколько сотен пальм, привезенных из Флориды, Доминиканы и Малайзии. Два бассейна с водой 32-34 градуса, термальный бассейн, пять обычных бассейнов и три с соленой водой.
+            </p>
+            <p>
+                Зона Relax напоминает райский пляж. Бассейн создает искусственные волны, вокруг находятся 740 пальм, шезлонгов и лежаки. Сверху расположен стеклянный купол, который открывается летом, когда на улице жарко, впуская свежий воздух.
+            </p>
+        </article>
+    </section>
+</main>
+<main>
+    <form class="form">
+       <h3>Предварительный заказ</h3>
+        <fieldset>
+            <legend>Данные</legend>
+            <div>
+                <label for="first_name">Имя:</label>
+                <input type="text" id="first_name" placeholder="Имя" required=>            </div>
+            <div>
+                <label for="last_name">Фамилия:</label>
+                <input type="text" id="last_name" placeholder="Фамилия">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ваш выбор</legend>
+            <div>
+                <label for=>зона отдыха</label>
+                <select name="aqua" id="aqua">
+                    <option value="басейн">басейн</option>
+                    <option value="сауна">сауна</option>
+                    <option value="горки">горки</option>
+                </select>
+            </div>
+            <div>
+                <h4>предпочтение зоны отдыха</h4>
+                <label>
+                <span>для курящих</span>
+                <input type="radio" name="aqua" value="1">
+                </label>
+                <label>
+                <span>для не курящих</span>
+                <input type="radio" name="aqua" value="2">
+                </label>
+
+                <div>
+                <label>
+                <span>дата</span>
+                <input type="date">
+                </label>
+                </div>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>соглашение </legend>
+            <div>
+                <label form="agreement">соглашение клиента</label>
+                <input type="checkbox" id="agreement" required="">
+            </div>
+            <div>
+                <button type="submit">регистрация</button>
+                <button type="reset">Очистить </button>
+            </div>
+        </fieldset>
+    </form>
+</main>
+<footer style="background-color:lightskyblue;">
+    <p>
+        Tadeusza Kościuszki 54, 99-300 Kutno
+    <p>
+        <a href=»tel:»>+48123456789</a>
+    </p>
+
+</footer>
+
+</body>
+</html>
